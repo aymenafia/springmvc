@@ -6,7 +6,7 @@ stages{
   
   stage('Build'){
     steps{
-    sh '/Users/mohamedaymenafia/Downloads/apache-maven-3.5.3 clean install'
+    sh '/usr/local/apache-maven/bin/mvn clean install'
     }
   }
     
