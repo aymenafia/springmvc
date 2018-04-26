@@ -10,11 +10,7 @@ stages{
     }
   }
     
-    stage('Test'){
-    steps{
-    sh '/usr/local/apache-maven/bin/mvn test'
-    }
-   }
+  
     
 }
 }
